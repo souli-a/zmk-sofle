@@ -44,7 +44,7 @@
 &none             &none  &none  &none       &none         &none                      &none      &none            &none             &none         &none               &none
 &kp RALT          &kp A  &kp Z  &kp E       &kp R         &kp T                      &kp Y      &kp U            &kp I             &kp O         &kp P               &kp BACKSPACE
 &kp ESC           &kp Q  &kp S  &kp D       &kp F         &kp G                      &kp H      &kp J            &kp K             &kp L         &kp M               &kp FR_DOLLAR
-&kp LEFT_CONTROL  &kp W  &kp X  &kt C       &kp V         &kp B      &none    &none  &kp N      &kp FR_QUESTION  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &none
+&kp LEFT_CONTROL  &kp W  &kp X  &kp C       &kp V         &kp B      &none    &none  &kp N      &kp FR_QUESTION  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &none
                          &none  &kp LSHIFT  &kp LEFT_GUI  &kp SPACE  &none    &none  &kp ENTER  &mo 1            &kp TAB           &none
             >;
 
@@ -53,11 +53,11 @@
 
         layer_1 {
             bindings = <
-&trans            &trans     &trans     &trans      &trans     &trans                       &trans          &trans     &trans        &trans        &trans                   &trans
-&kp LALT          &kp FR_N1  &kp FR_N2  &kp FR_N3   &kp FR_N4  &kp FR_N5                    &kp FR_N6       &kp FR_N7  &kp FR_N8     &kp FR_N9     &kp FR_N0                &kp BACKSPACE
-&kp ESC           &trans     &trans     &trans      &kp FR_LT  &trans                       &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT     &kp FR_LEFT_PARENTHESIS  &kp FR_EQUAL
-&kp LEFT_CONTROL  &trans     &trans     &trans      &trans     &trans     &trans    &trans  &trans          &trans     &trans        &kp FR_CARET  &kp FR_U_GRAVE           &kp FR_ASTERISK
-                             &trans     &kp LSHIFT  &trans     &kp SPACE  &trans    &trans  &kp ENTER       &trans     &trans        &trans
+&trans            &trans     &trans     &trans      &trans     &trans                       &trans          &trans          &trans        &trans           &trans                   &trans
+&kp LALT          &kp FR_N1  &kp FR_N2  &kp FR_N3   &kp FR_N4  &kp FR_N5                    &kp FR_N6       &kp FR_N7       &kp FR_N8     &kp FR_N9        &kp FR_N0                &kp BACKSPACE
+&kp ESC           &trans     &trans     &trans      &kp FR_LT  &trans                       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp FR_LEFT_PARENTHESIS  &kp FR_EQUAL
+&kp LEFT_CONTROL  &trans     &trans     &trans      &trans     &trans     &trans    &trans  &trans          &trans          &trans        &kp FR_CARET     &kp FR_U_GRAVE           &kp FR_ASTERISK
+                             &trans     &kp LSHIFT  &trans     &kp SPACE  &trans    &trans  &kp ENTER       &trans          &trans        &trans
             >;
         };
     };
