@@ -41,23 +41,22 @@
 
         layer0 {
             bindings = <
-&none             &none     &none     &none       &none         &none                      &none      &none            &none             &none         &none               &none
-&kp RALT          &kp FR_A  &kp FR_Z  &kp FR_E       &kp FR_R         &kp FR_T                      &kp FR_Y      &kp FR_U            &kp FR_I             &kp FR_O         &kp FR_P               &kp BACKSPACE
-&kp ESC           &kp FR_Q     &kp FR_S     &kp FR_D       &kp FR_F         &kp FR_G                      &kp FR_H      &kp FR_J            &kp FR_K             &kp FR_L         &kp FR_M               &kp FR_DOLLAR
-&kp LEFT_CONTROL  &kp FR_W     &kp FR_X     &kp FR_C       &kp FR_V         &kp FR_B      &none    &none  &kp FR_N      &kp FR_QUESTION  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &none
-                            &none     &kp LSHIFT  &kp LEFT_GUI  &kp SPACE  &none    &none  &kp ENTER  &mo 1            &kp TAB           &none
+&none             &none        &none        &none          &none            &none            &none              &none         &none               &none                &none             &none                 &none
+&kp RIGHT_ALT     &kp FR_A     &kp FR_Z     &kp FR_E       &kp FR_R         &kp FR_T         &none              &kp FR_Y      &kp FR_U            &kp FR_I             &kp FR_O         &kp FR_P               &kp BACKSPACE
+&kp ESCAPE        &kp FR_Q     &kp FR_S     &kp FR_D       &kp FR_F         &kp FR_G         &none              &kp FR_H      &kp FR_J            &kp FR_K             &kp FR_L         &kp FR_M               &kp FR_DOLLAR
+&kp LEFT_CONTROL  &kp FR_W     &kp FR_X     &kp FR_C       &kp FR_V         &kp FR_B         &none              &kp FR_N      &kp FR_QUESTION     &kp FR_SEMICOLON     &kp FR_COLON     &kp FR_EXCLAMATION     &none
+                               &none        &kp LSHIFT     &kp LEFT_GUI     &kp SPACE     &none &none &none     &kp ENTER     &mo 1               &kp TAB              &none            &none
             >;
-
             display-name = "LAYER0";
         };
 
         layer_1 {
             bindings = <
-&trans            &trans     &trans     &trans      &trans     &trans                       &trans          &trans          &trans        &trans           &trans                   &trans
-&kp LALT          &kp FR_N1  &kp FR_N2  &kp FR_N3   &kp FR_N4  &kp FR_N5                    &kp FR_N6       &kp FR_N7       &kp FR_N8     &kp FR_N9        &kp FR_N0                &kp BACKSPACE
-&kp ESC           &trans     &trans     &trans      &kp FR_LT  &trans                       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp FR_LEFT_PARENTHESIS  &kp FR_EQUAL
-&kp LEFT_CONTROL  &trans     &trans     &trans      &trans     &trans     &trans    &trans  &trans          &trans          &trans        &kp FR_CARET     &kp FR_U_GRAVE           &kp FR_ASTERISK
-                             &trans     &kp LSHIFT  &trans     &kp SPACE  &trans    &trans  &kp ENTER       &trans          &trans        &trans
+&none             &none      &none      &none       &none      &none          &none               &none           &none           &none         &none            &none                    &none
+&kp RIGHT_ALT     &kp FR_N1  &kp FR_N2  &kp FR_N3   &kp FR_N4  &kp FR_N5      &none               &kp FR_N6       &kp FR_N7       &kp FR_N8     &kp FR_N9        &kp FR_N0                &kp BACKSPACE
+&kp ESCAPE        &none      &none      &none       &kp FR_LT  &none          &none               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp FR_LEFT_PARENTHESIS  &kp FR_EQUAL
+&kp LEFT_CONTROL  &none      &none      &none       &none      &none          &none               &none           &none           &none         &kp FR_CARET     &kp FR_U_GRAVE           &kp FR_ASTERISK
+                             &none      &kp LSHIFT  &none      &kp SPACE    &none &none &none     &kp ENTER       &none           &none         &none            &none
             >;
         };
     };
