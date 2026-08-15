@@ -50,9 +50,6 @@
             display-name = "LAYER0";
         };
 
-&kp RIGHT_ALT     &kp FR_AMPERSAND   &kp FR_E_ACUTE  &kp FR_DOUBLE_QUOTES &kp FR_SINGLE_QUOTE &kp FR_LEFT_PARENTHESIS  &none              &kp FR_MINUS   &kp FR_E_GRAVE     &kp FR_UNDERSCORE &kp FR_C_CEDILLA &kp FR_A_GRAVE        &kp BACKSPACE
-
-
         layer_1 {
             bindings = <
 &none             &none      &none      &none       &none      &none          &none               &none           &none           &none         &none            &none                    &none
