@@ -56,7 +56,7 @@
 &none             &none            &none          &none                  &none                &none                   &none &none           &none             &none             &none            &none                    &none
 &kp RIGHT_ALT     &kp FR_AMPERSAND &kp FR_E_ACUTE &kp FR_DOUBLE_QUOTES   &kp FR_SINGLE_QUOTE  &kp FR_LEFT_PARENTHESIS &none &kp FR_MINUS    &kp FR_E_GRAVE    &kp FR_UNDERSCORE &kp FR_C_CEDILLA &kp FR_A_GRAVE           &kp BACKSPACE
 &kp ESCAPE        &none            &none          &none                  &kp FR_LT            &none                   &none &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT_ARROW  &kp FR_RIGHT_PARENTHESIS &kp FR_EQUAL
-&kp LEFT_CONTROL  &none            &none          &bt BT_CLR_ALL         &none                &none                   &none &none           &none             &none             &kp FR_CARET     &kp FR_U_GRAVE           &kp FR_ASTERISK
+&kp LEFT_CONTROL  &bt BT_NXT       &none          &bt BT_CLR_ALL         &none                &none                   &none &none           &none             &none             &kp FR_CARET     &kp FR_U_GRAVE           &kp FR_ASTERISK
                                    &none &none &none &kp LSHIFT &none &kp SPACE &none &kp ENTER &none &none &none &none
             >;
         };
